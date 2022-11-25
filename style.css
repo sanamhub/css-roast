@@ -1,0 +1,16 @@
+.alert {
+  margin: 0px 200px 10px 200px;
+  padding: 5px 0px;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: consolas;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
