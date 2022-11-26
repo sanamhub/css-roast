@@ -1,16 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .alert {
-  margin: 0px 200px 10px 200px;
+  margin: 10px 400px 10px 400px;
   padding: 5px 0px;
   border-radius: 7px;
   background-color: black;
   color: white;
   text-align: center;
-  font-family: consolas;
-  animation: blink 1s linear infinite;
-}
-
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  white-space: nowrap;
 }
